@@ -1,0 +1,268 @@
+/* header style */
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Work Sans', sans-serif;
+}
+.header-title{
+    margin-left: 100px;
+    margin-top: 8px;
+    font-size: 20px;
+}
+.header-details{
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.first{
+    background: rgba(255, 144, 14, 0.1);
+}
+/* header style end */
+
+/* header banner */
+
+.header-banner{
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    margin-left: 550px;
+    margin-top: 100px;
+}
+.banner-title{
+    font-size: 50px;
+}
+.explore-button-one{
+    width: 150px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+}
+.second{
+    background: rgba(255, 144, 14, 0.1);
+}
+/* banner image */
+
+.banner-image{
+    width: 1440px;
+    height: 700px;
+    margin-top: 250px;
+    margin-left: 120px;
+}
+.third{
+    background: rgba(255, 144, 14, 0.1);
+}
+body{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* banner end */
+
+/* main style */
+
+.main-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+   
+}
+.main-images{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.main-description{
+    width: 537px;
+height: 304px;
+margin-left: 70px;
+margin-top: 250px;
+}
+.explore-button-two{
+    background: #FF900E;
+border-radius: 8px;
+width: 150px;
+height: 60px;
+}
+
+
+/* features */
+
+.new-sec{
+   margin-top: 100px;
+   margin-left: 200px;
+}
+.features{
+    display: flex;
+    width: 1200px;
+    height: 900px;
+}
+.features-title{
+    font-size: 45px;
+}
+.sub-features-one{
+    width: 500px;
+    height: 150px;
+    border: 1px solid rgb(245, 236, 236);
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+   
+}
+.sub-features-two{
+    width: 500px;
+    height: 150px;
+    border: 1px solid rgb(245, 236, 236);
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+   
+}
+.sub-features-three{
+    width: 500px;
+    height: 150px;
+    border: 1px solid rgb(245, 236, 236);
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.sub-features-four{
+    width: 500px;
+    height: 150px;
+    border: 1px solid rgb(245, 236, 236);
+    border-radius: 5px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.architect img{
+    width: 600px;
+    height: 800px;
+}
+.explore-button-three{
+    width: 350px;
+    height: 200px;
+    background: #FF900E;
+border-radius: 8px;
+font-size: 65px;
+color: whitesmoke;
+margin-left: 400px;
+
+}
+/*--------------*/
+
+.fact{
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.fact-some{
+    color: #131313;
+    font-size: 45px;
+}
+.fact-details{
+    color: #727272;
+    width: 542px;
+    height: 52px;
+}
+/* flexbox */
+
+.container{
+   margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.box{
+    border: 3px solid orange;
+    width: 180px;
+    height: 180px;
+    font-size: 3ex;
+    font-weight: 600;
+}
+.box, img{
+    text-align: center;
+    margin-top: 50px;
+}
+/* flexbox end */
+
+.sponsor{
+    width: 400px;
+    height: 100px;
+    margin-top: 100px;
+    margin-left: 600px;
+   
+}
+.sponsor-start{
+    text-align: center;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 40px;
+}
+/* ---- */
+
+.picture-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+/* footer */
+
+
+
+.last{
+    background: #c69e6e;
+border-radius: 8px;
+height: 80px;
+width: 1300px;
+margin-left: 200px;
+margin-top: 100px;
+}
+.last-title{
+text-align: center;
+
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 576px) {
+ .header{
+    flex-direction: column;
+ }
+ .header-banner{
+    margin: 0;
+    width: auto;
+ }
+ .banner-image{
+    margin-left: 0;
+    height: 300px;
+ }
+   .box, img{
+    
+   } 
+   .main-container{
+    flex-direction: column;
+   }
+   .main-images{
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+   }
+   .main-description{
+    margin-top: 100px;
+    width: 300px;
+   }
+   .features{
+    flex-direction: column;
+    align-items: center;
+    width: 0;
+   }
+   .container{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 400px;
+   }
+   .picture-content{
+    flex-direction: column;
+    align-items: center;
+   }
+   .last{
+    margin-left: 0;
+   }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+    
+}
